@@ -1,0 +1,3 @@
+This repository demonstrates a common but easily avoidable error in PHP: using the deprecated `mysql_*` functions.  These functions are no longer supported in PHP 7.0 and later, creating security vulnerabilities and preventing your code from running on updated servers.
+
+The `bug.php` file shows the problematic code, while `bugSolution.php` provides the correct solution using the MySQLi or PDO extensions which are the recommended replacements.
